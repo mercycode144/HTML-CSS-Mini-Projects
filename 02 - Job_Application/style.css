@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+body{
+	background-color: #ccc;
+}
+
+.contaner{
+	max-width: 900px;
+	margin-top: 50px auto;
+
+}
+
+.job_form{
+	background-color: white;
+	max-width: 600px;
+	padding: 20px;
+	margin: 50px auto 0px auto;
+	border-radius: 20px;
+	box-shadow: 5px 10px 20px rgba(1,1,1,0.1);
+}
+
+.small_title{
+	font-size: 20px;
+}
+
+.form_container{
+	margin-top: 20px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 20px;
+}
+
+.form_ctrl{
+	display: flex;
+	flex-direction: column;
+}
+
+label{
+	margin-bottom: 5px;
+	font-size: 15px;	
+}
+
+input, select, textarea{
+	padding: 6px 10px;
+	border: 1px solid grey;
+	border-radius: 5px;
+	font-size: 15px;
+}
+
+input:focus{
+	color: black;
+}
+
+.btn{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 20px;
+}
+
+.btn button{
+	padding: 6px 10px;
+	border: 1px solid black;
+	border-radius: 8px;
+	transition: 0.3s ease-in;
+}
+
+.btn button:hover{
+	background: black;
+	color: white;
+	transition: 0.3s ease-out;
+	box-shadow: 2px 2px 8px grey;
+	cursor: pointer;
+}
+
+.txtarea{
+	grid-column: 1 / span 2;
+}
+
+.txtarea textarea{
+	width: 100%;
+}
+
+@media (max-width: 460px){
+	.txtarea{
+	grid-column: 1 / span 1;
+}
+};
