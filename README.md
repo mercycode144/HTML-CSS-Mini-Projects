@@ -10,6 +10,7 @@ Here is a list of the projects included in this repository:
 
 Tribute Page: A tribute page built using HTML and CSS, showcasing the basics of html and css.
 Job Application: A job application form  built using HTML and CSS, showcasing the basics of html and css.
+Parallax Website: A parallax site built using HTML and CSS, showcasing the basics of html and css.
 
 ## Contributing
 If you have your own mini HTML and CSS projects that you'd like to contribute to this repository, please feel free to submit a pull request with your project. Your contributions are always welcome and appreciated!
